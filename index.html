@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maari</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="container">
+        <h1>hi welcome</h1>
+            <h2>this is srinivasa rao marella </h2>
+                      
+    
+            <nav>
+                <ul class="topnav" id="dropdownclick">
+                     
+                    <li><a class="active" href="home">home</a></li>
+                    <li><a    href="home">news</a></li>
+                    <li><a   href="home">reviews</a></li>
+                    <li><a   href="home">gallary</a></li>
+                    <li><a   href="home">vidoes</a></li>
+                    <li><a   href="home">ott and tv </a></li>
+                    <li><a   href="home">interviews</a></li>
+                    <li><a   href="home">telugu version</a></li>
+                    <li class="dropdownicon"><a   href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+
+                    
+                </ul>
+            </nav>
+            
+        </div>
+        
+        
+        <script>
+        function dropdownmenu(){                   
+        var x = document.getElementById("dropdownclick");
+            if (x.classname === "topnav"){
+                x.classname +=" responsive";
+            }
+            else{
+                x.classname"topnav";
+            }
+
+            
+        }
+        </script>
+    </body>
+</html>
